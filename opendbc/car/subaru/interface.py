@@ -64,7 +64,7 @@ class CarInterface(CarInterfaceBase):
     elif candidate in ( CAR.SUBARU_CROSSTREK_2024, CAR.SUBARU_CROSSTREK_2025 ):
       ret.dashcamOnly = False
       #ret.steerActuatorDelay = 0.3
-      ret.steerActuatorDelay = 1.0
+      ret.steerActuatorDelay = 0.15
       #ret.lateralTuning.init('pid')
       #ret.lateralTuning.pid.kf = 0.00005
       #ret.lateralTuning.pid.kiBP, ret.lateralTuning.pid.kpBP = [[0., 5., 12.], [0., 5., 12.]]
