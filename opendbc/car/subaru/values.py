@@ -17,7 +17,7 @@ class CarControllerParams:
   )
 
   def __init__(self, CP):
-    self.STEER_STEP = 2                # how often we update the steer cmd
+    self.STEER_STEP = 4                # how often we update the steer cmd (was 2)
     self.STEER_DELTA_UP = 50           # torque increase per refresh, 0.8s to max
     self.STEER_DELTA_DOWN = 70         # torque decrease per refresh
     self.STEER_DRIVER_ALLOWANCE = 60   # allowed driver torque before start limiting
